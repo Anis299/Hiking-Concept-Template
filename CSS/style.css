@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+            /* Header CSS Start Here */
+header{
+    background-image: url('../Images/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1077px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    display: inline;
+    float: left;
+    padding: 25px 60px;
+}
+.menu{
+    float: right;
+    margin-top: 55px;
+}
+.menu li{
+    display: inline;
+    list-style: none;
+
+}
+.menu li a{
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #54524f;
+    font-weight: bold;
+    font-size: 18px;
+}
+.searchbar a{
+	padding: 0 !important;
+    position: absolute;
+    right: 40px;
+	top: 62px;
+	color: #d7cdcd;
+    font-size: 30px;
+}
+.searchbar a:hover{
+    color: #deb37e;
+	transition: 1s;
+}
+.searchbar input{
+    width: 200px;
+	padding: 10px;
+	border-radius: 20px;
+	margin-left: 25px;
+    margin-right: 30PX;
+	border: 0 solid gray;
+	background-color: #a5a5a5;
+	color: white;
+    position: relative;
+}
+.clear{
+    clear: both;
+}
+.content-text{
+    padding-top: 50px;
+    margin-left: 60px; 
+}
+.content-text h1{
+    font-size: 100px;
+    font-weight: 800;
+    color: #deb37e;
+    display: inline-block; 
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-shadow: 10px -7px 5px #d9d7d3;
+}
+.content-text h2{
+    font-size: 30px;
+    color: #54524f;
+    font-style: italic;
+    
+}
+.button1{
+    border-radius: 30px;
+    padding: 10px 40px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.button1 a{
+    text-decoration: none;
+    color: #776c64;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content-text p{
+    font-size: 20px;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+
+            /* Header CSS End Here */
+
+            /* Banner CSS Start Here */
+.shed-1{
+    position: relative;
+}
+.container{
+    position: absolute;
+    transform: translate(-0%, -0%);
+    left: 0;
+    bottom: 0;
+}
+.text h2{
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #e2a355;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 0;
+}
+.text p{
+    text-align: center;
+    color: #54524f;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.card{
+    display: inline;
+    float: left;
+    width: 30%;
+    margin-left: 25px;
+}
+.card-content{
+    background-color: #7f7770;
+    width: fit-content;
+    color: white;
+    margin: 55px;
+}
+.card-content h4{
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.card-content p{
+    font-size: 15px;
+    margin-left: 20px;
+    padding-bottom: 50px; 
+}
+.button2{
+    border-radius: 30px;
+    padding: 15px 80px;
+    border: none;
+    background-color: #7f7770;
+    margin-left: 515px;
+    margin-bottom: 150px;
+    
+}
+.button2 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 800;    
+}
+            /* Banner CSS End Here */
+
+            /* Feature CSS Start Here */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.first-row, .second-row{
+    width: 100%;
+    clear: both;
+}
+.one{
+    width: 50%;
+    height: 716px;
+    display: inline;
+    float: left;
+}
+.one img{
+    width: 100%;
+}
+.two{
+  width: 50%;
+  height: 716px;
+  background-color: #7f7770;
+  float: right;
+  display: inline;
+}
+.two h2, .three h2{
+  font-size: 60px;
+  color: white;
+  margin-left: 40px;
+  margin-top: 150px;
+}
+.two p, .three p{
+  color: white;
+  font-size: 22px;
+  margin-left: 40px;
+}
+.three{
+    width: 50%;
+    height: 733px;
+    background-color: #deb37e;
+    float: left;
+    display: inline-block;
+}
+.four{
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+.four img{
+  width: 100%;
+}
+.button3{
+    border-radius: 30px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #e2a355;
+    margin: 50px 40px;
+}
+.button3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+            /* Feature CSS End Here */
+
+            /* Layer CSS Start Here */
+.layer{
+    background-image: url('../Images/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layer h2{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 320px;
+    color: white;
+}
+.layer p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 200px;
+}
+            /* Layer CSS End Here */
+
+            /* Explore CSS Start Here */
+.comment{
+    background-image: url('../Images/explore-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.comment h2{
+    text-align: right;
+    font-size: 80px;
+    padding: 300px 65px;
+    
+    font-weight: 800;
+    text-shadow: 10px -2px 5px #b2b3b3;
+    font-style: italic;
+}
+            /* Explore CSS End Here */
+
+            /* Mention CSS Start Here */
+.mention{
+    position: relative;
+}
+.shed-2 img{
+    position: absolute;
+    transform: translate(-0%, -0%);
+    right: 0;
+    bottom: 0;
+}            
+.grid{
+    width: 100%;
+}
+.grid-content{
+    width: 33.33%;
+    float: left;
+    padding-left: 70px;
+    padding-bottom: 200px;
+}
+.grid-content h3{
+    color: #deb37e;
+    font-size: 40px;
+    text-align: justify;
+}
+.grid-content p{
+    font-size: 15px;
+}
+.quote h2{
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+}
+.quote p{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+blockquote{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+
+            /* Mention CSS End Here */
+
+            /* Subscribe CSS Section Start here */
+.subscribe{
+    background-image: url('../Images/subscribe-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.subscribe h2{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 190px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.subscribe {
+    color: #82725f;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+}
+.sub-sec input{
+    width: 450px;
+    margin-bottom: 200px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 50px;
+    padding: 12px 25px;
+}
+.button4{
+    border-radius: 30px;
+    padding: 11px 25px;
+    background-color: #54524f;
+    position: absolute;
+    left: 820px;
+    bottom: 198px;
+    transform: translate(-30% -50%);
+}
+.button4 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+            /* Subscribe CSS Section End here */
+
+           /* Footer CSS Start Here */
+.foot{
+    background-image: url('../Images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.full-grid{
+    width: 100%;
+    clear: both;
+    display: inline-block;
+    color: white;
+    font-family: 'Montserrat';
+}
+.full-grid h3{
+    font-size: 40px;
+    color: white;
+    padding-top: 320px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+.title{
+    width: 40%;
+    float: left;
+    padding-left: 120px;
+}
+.title h3{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+.title p{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.title li{
+    list-style: none;
+    display: inline;
+    font-size: 30px;
+}
+.title li a{
+    color: white;
+    padding: 10px;
+}
+.title li a:hover{
+    color: #deb37e;
+    transition: .5s;
+}
+.about{
+    width: 20%;
+    float: left;
+    padding-left: 100px;
+}
+.about li{
+    list-style: none;
+    font-size: 15px;
+    list-style: none;
+}
+.about li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.about li a:hover{
+    color: #deb37e;
+    transition: .5s;
+}
+.service{
+    width: 20%;
+    float: left;
+    padding-left: 50px;
+}
+.service li{
+    list-style: none;
+    font-size: 15px;
+}
+.service li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.service li a:hover{
+    color: #deb37e;
+    transition: .5s;
+}
+.others{
+    width: 20%;
+    float: left;
+    padding-left: 20px;
+}
+.others li{
+    list-style: none;
+    font-size: 15px;
+    list-style: none;
+}
+.others li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.others li a:hover{
+    color: #deb37e;
+    transition: .5s;
+}
+            /* Footer CSS End Here */
+
